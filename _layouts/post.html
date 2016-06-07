@@ -1,15 +1,22 @@
 ---
 layout: default
 ---
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+<article itemscope itemtype="http://schema.org/Article" class='type-system-rounded'>
+  <p class='type'><a href='/blog.html'>Blog</a></p>
+  <h1>{{ page.title }}</h1>
+    <p class="date">{{ page.date | date: "%b %-d, %Y" }}</p>
 
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
-  </header>
 
-  <div class="post-content" itemprop="articleBody">
+  <article class="post-content">
     {{ content }}
-  </div>
-
+  </article>
+  <p class='author'>
+    {% if page.author %}
+      Author: 
+      {% if page.author_link %}
+        <a href="{{page.author_link}}" itemprop="author">{{ page.author }}</a>
+      {% else %}
+        {{ page.author }}
+      {% endif %}
+    {% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
 </article>
