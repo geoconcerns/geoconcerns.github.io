@@ -2,22 +2,48 @@
 layout: default
 ---
 
-<div class="home">
+<div class="intro-text">
+  <h1>GeoConcerns</h1>
+  <h4>
+    A Hydra-based Rails Engine for Geospatial Data
+  </h4>
+</div>
 
-  <h1 class="page-heading">Posts</h1>
+<div style="position: relative; width: 40%; left: 30%;">
+  <img src="/images/gc-1.png" alt="">
+</div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<hr>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
+<div class='intro-text'>
+  <ul class='unstyled'>
+    <li>
+      <h4>
+        <a class="" href="{% post_url 2016-06-07-a-walkthrough-of-geoconcerns %}">Walkthrough of GeoConcerns</a>
+      </h4>
+      <span class='post-date'>June 7, 2016</span>
+    </li>
   </ul>
+</div>
+<hr>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div class='contributors'>
+  <h4>Contributors</h4>
+  <ul>
+    <li>
+      Lafayette College Libraries
+    </li>
+    <li>
+      Princeton University Library
+    </li>
+    <li>
+      Stanford University Libraries
+    </li>
+    <li>
+      University of Alberta Libraries
+    </li>
+    <li>
+      Yale University Libraries
+    </li>
+  </ul>
 </div>
