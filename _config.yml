@@ -9,7 +9,7 @@
 title: GeoConcerns
 email: hydra-gis-working-group@googlegroups.com
 description: > # this means to ignore newlines until "baseurl:"
-  Special thanks to Jack Reed.
+  PCDM geospatial models for hydra repositories.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://geoconcerns.github.io" # the base hostname & protocol for your site
 github_username: geoconcerns
