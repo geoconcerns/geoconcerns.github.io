@@ -9,6 +9,11 @@ snippet: 'Creating a Hydra PCDM scanned map work. Created as part of a tutorial 
 ---
 
 
+## Create a scanned map
+  - 
+
+
+
 <div class='flash-notice'>
   <a href="{% post_url 2016-06-07-create-a-raster-work %}">Next → Create a raster work</a>
 </div>
