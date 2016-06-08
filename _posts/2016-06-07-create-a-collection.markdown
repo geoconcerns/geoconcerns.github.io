@@ -14,10 +14,23 @@ snippet: 'Creating a Hydra PCDM Collection. Created as part of a tutorial series
 
 ### What is a collection?
 
+```
+"Anything you want it to be." 
+- Jon Stroop
+```
+
+
 ### Make a collection
 
+1. Click the **+** symbol in the upper-right corner.
+1. Select **Add a Collection** from the drop-down menu.
 
+   ![add_collection](/images/add_collection.png)
+1. Fill out fields on the **Create New Collection** form. Only the *Title* field is required.
 
+   ![collection_form](/images/collection_form.png)
+1. Click the **Create Collection** button at the bottom of the page.
+1. You've now created your first collection.
 
 
 
