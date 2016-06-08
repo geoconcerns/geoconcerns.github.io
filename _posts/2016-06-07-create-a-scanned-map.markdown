@@ -15,5 +15,5 @@ snippet: 'Creating a Hydra PCDM scanned map work. Created as part of a tutorial 
 
 
 <div class='flash-notice'>
-  <a href="{% post_url 2016-06-07-create-a-raster-work %}">Next → Create a raster work</a>
+  <a href="{% post_url 2016-06-07-create-a-collection %}">Next → Create a collection</a>
 </div>

@@ -1,6 +1,6 @@
 ---
 layout: walkthrough
-title:  "Create a Collection - Part 4 - Walkthrough of GeoConcerns"
+title:  "Create a Collection - Part 5 - Walkthrough of GeoConcerns"
 date:   2016-06-07 15:00:00
 categories: tutorial
 author: 'Eliot Jordan'
@@ -36,5 +36,5 @@ snippet: 'Creating a Hydra PCDM Collection. Created as part of a tutorial series
 
 
 <div class='flash-notice'>
-  <a href="{% post_url 2016-06-07-create-a-scanned-map %}">Next → Create a scanned map</a>
+  <a href="{% post_url 2016-06-07-create-a-raster-work %}">Next → Create a raster work</a>
 </div>

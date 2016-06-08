@@ -78,5 +78,5 @@ Since this is a brand new application, we have to create a user in order to cont
 1. Click on the **Sign up** button and you're in!
 
 <div class='flash-notice'>
-  <a href="{% post_url 2016-06-07-create-a-collection %}">Next → Create a collection</a>
+  <a href="{% post_url 2016-06-07-create-a-scanned-map %}">Next → Create a scanned map</a>
 </div>
