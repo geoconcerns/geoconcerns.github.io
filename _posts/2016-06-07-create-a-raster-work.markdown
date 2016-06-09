@@ -1,6 +1,6 @@
 ---
 layout: walkthrough
-title:  "Create a Raster Work - Part 7 - Walkthrough of GeoConcerns"
+title:  "Create a Raster Work - Part 6 - Walkthrough of GeoConcerns"
 date:   2016-06-07 15:07:00
 categories: tutorial
 author: 'Eliot Jordan'
@@ -9,7 +9,6 @@ snippet: 'Creating a GeoConcerns raster work. Created as part of a tutorial seri
 ---
 
 
-
 <div class='flash-notice'>
-  <a href="{% post_url 2016-06-07-create-a-vector-work %}">Next → Create a vector work</a>
+  <a href="{% post_url 2016-06-07-create-a-collection %}">Next → Create a collection</a>
 </div>
