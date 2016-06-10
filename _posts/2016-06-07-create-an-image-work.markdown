@@ -8,7 +8,6 @@ author_link: 'https://github.com/eliotjordan'
 snippet: 'Creating a Hydra PCDM scanned map work. Created as part of a tutorial series given as Walkthrough of GeoConcerns'
 ---
 
-
 ## Create an image work
   - What's an image work?
   - Add a new image

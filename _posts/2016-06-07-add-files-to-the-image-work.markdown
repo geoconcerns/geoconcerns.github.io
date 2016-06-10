@@ -71,7 +71,6 @@ An important component of GeoConcern models are parent-child relationships betwe
 1. Click on that link and you will return to the scanned map image page. At the bottom of the page you'll see a link to that child Raster Work.
 
    ![all_child_raster_works](/images/all_child_raster_works.png)
-1. Click on the raster work icon and proceed to the next tutorial section.
 
 <div class='flash-notice'>
   <a href="{% post_url 2016-06-07-create-a-raster-work %}">Next → Create a raster work</a>
