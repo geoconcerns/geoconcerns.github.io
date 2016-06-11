@@ -21,7 +21,7 @@ snippet: 'Creating a Hydra PCDM scanned map work. Created as part of a tutorial 
 
 ### What's an image work?
 
-A scanned map.
+An image work is a resource that represents an image of a geospatial object of some kind. Usually this refers to scanned maps. The image work contains the image file itself, metadata about that resource, derivative files such as thumbnails, and external metadata files which describe the resource.
 
 ### Add a new image
 
@@ -138,7 +138,3 @@ In this last step you can choose a license for your data. You can choose multipl
 <div class='flash-notice'>
   <a href="{% post_url 2016-06-07-add-files-to-the-image-work %}">Next → Add files to the image work</a>
 </div>
-
-
-
-
