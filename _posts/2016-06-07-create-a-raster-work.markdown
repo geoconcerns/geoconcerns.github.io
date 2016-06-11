@@ -1,6 +1,6 @@
 ---
 layout: walkthrough
-title:  "Create a Raster Work - Part 6 - Walkthrough of GeoConcerns"
+title:  "Create a Raster Work - Part 5 - Walkthrough of GeoConcerns"
 date:   2016-06-07 15:07:00
 categories: tutorial
 author: 'Eliot Jordan'

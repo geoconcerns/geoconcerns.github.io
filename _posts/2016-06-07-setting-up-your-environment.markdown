@@ -1,6 +1,6 @@
 ---
 layout: walkthrough
-title:  "Setting Up Your Environment - Part 2 - Walkthrough of GeoConcerns"
+title:  "Setting Up Your Environment - Part 1 - Walkthrough of GeoConcerns"
 date:   2016-06-07 11:29:00
 categories: tutorial
 author: 'Eliot Jordan'

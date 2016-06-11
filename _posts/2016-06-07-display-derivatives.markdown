@@ -1,6 +1,6 @@
 ---
 layout: walkthrough
-title:  "Display Derivatives - Part 9 - Walkthrough of GeoConcerns"
+title:  "Display Derivatives - Part 8 - Walkthrough of GeoConcerns"
 date:   2016-06-07 15:08:00
 categories: tutorial
 author: 'Eliot Jordan'

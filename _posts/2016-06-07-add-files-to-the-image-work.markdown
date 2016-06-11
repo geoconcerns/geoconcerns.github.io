@@ -1,6 +1,6 @@
 ---
 layout: walkthrough
-title:  "Add Files to the Image Work - Part 5 - Walkthrough of GeoConcerns"
+title:  "Add Files to the Image Work - Part 4 - Walkthrough of GeoConcerns"
 date:   2016-06-07 14:52:00
 categories: tutorial
 author: 'Eliot Jordan'
