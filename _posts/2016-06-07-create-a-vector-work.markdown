@@ -24,7 +24,7 @@ A vector work represents a geospatial vector dataset. Points, lines, polygons. C
 1. On the show page of your Raster Work, create a child Vector Work.
 1. Click **Attach Child** and select **Attach Vector Work**
 1. On the new vector work form add a basic **Title** and fill in the **Provenance** field.
-   
+
    ![provenance](/images/provenance.png)
 1. Click **Create Vector Work**.
 
@@ -33,7 +33,7 @@ A vector work represents a geospatial vector dataset. Points, lines, polygons. C
 1. Attach a vector file to the work using the same process as the other works.
 1. This time the **Type** should be **ESRI Shapefile**.
 1. The file can be found at **McKay** / **Geospatial_Data** / **S_566_1914_lines.zip**
-   
+
    ![shapefile_path](/images/shapefile_path.png)
 
 1. The shapefile is now attached to the vector work.
@@ -47,7 +47,7 @@ A vector work represents a geospatial vector dataset. Points, lines, polygons. C
 
 1. Now, attach an FGDC external metadata to the work.
 1. The file can be found at **McKay** / **Geospatial_Data** / **S_566_1914_lines_fgdc.xml**
-   
+
    ![vector_fgdc_path](/images/vector_fgdc_path.png)
 
 1. Once the file is attached, use it to populate the vector work attributes like you did with the raster work.
@@ -59,12 +59,12 @@ A vector work represents a geospatial vector dataset. Points, lines, polygons. C
 GeoConcerns has the ability to generate documents for use in external discovery systems like Geoblacklight.
 
 1. In the address bar for the vector work, append `/geoblacklight` to the end of the URL.
-   
+
    ![address_bar](/images/address_bar.png)
 1. The application will build a JSON formatted document that can be indexed into a Geoblacklight Solr instance.
 
    ![geoblacklight_solr](/images/geoblacklight_solr.png)
 
 <div class='flash-notice'>
-  <a href="{% post_url 2016-06-07-display-derivatives %}">Next → Display derivatives</a>
+  <a href="{% post_url 2016-09-14-viewing-derivatives %}">Next → Viewing derivatives</a>
 </div>
