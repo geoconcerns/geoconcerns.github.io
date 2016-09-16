@@ -23,9 +23,7 @@ A vector work represents a geospatial vector dataset. Points, lines, polygons. C
 
 1. On the show page of your Raster Work, create a child Vector Work.
 1. Click **Attach Child** and select **Attach Vector Work**
-1. On the new vector work form add a basic **Title** and fill in the **Provenance** field.
-
-   ![provenance](/images/provenance.png)
+1. On the new vector work form add a basic **Title*** field.
 1. Click **Create Vector Work**.
 
 ### Attach a shapefile

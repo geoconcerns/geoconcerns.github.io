@@ -22,7 +22,7 @@ At the end of the last section, we created an child Raster Work. We'll need to l
 
    ![my_works](/images/my_works.png)
 1. On the catalog page, you can:
-   - on work type, creator, and subject
+   - facet on work type, creator, and subject
 
      ![search_facet](/images/search_facet.png)
    - do a keyword search
@@ -32,8 +32,9 @@ At the end of the last section, we created an child Raster Work. We'll need to l
 
      ![search_type](/images/search_type.png)
 1. In this case, out raster work is very easy to find. Click on the Raster Work title to go to it's show page.
-
-   ![search_raster_item](/images/search_raster_item.png)
+1. You'll notice that the parent image work appears in the **Parent Works** section.
+   
+   ![raster_parent_work](/images/raster_parent_work.png)
 
 ### Add georeferenced map
 
@@ -63,7 +64,7 @@ We can now extract metadata from the FGDC document to populate attributes on our
    
    ![edit_raster](/images/edit_raster.png)
 1. Scroll to the bottom of the page to the **Automatically Populate Metadata** section.
-1. Select **Yes** from the drop-down menu.
+1. Select the metadata file from the drop-down menu.
 1. Click **Update Raster Work**.
 
    ![populate_metadata](/images/populate_metadata.png)
