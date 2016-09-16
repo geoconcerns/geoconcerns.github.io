@@ -8,7 +8,7 @@ author_link: 'https://github.com/drh-stanford'
 snippet: 'Creating a GeoConcerns vector work automatically creates a variety of deriviative files. Created as part of a tutorial series given as Walkthrough of GeoConcerns'
 ---
 
-## View Deriviatives
+## View Derivatives
   1. Thumbnail
   1. Display Vector
   1. GeoServer
