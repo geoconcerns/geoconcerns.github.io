@@ -14,6 +14,7 @@ This is the first time we have presented this guided show and tell for GeoConcer
 Workshop Dates:
 
   - [Open Repositories 2016](https://www.conftool.com/or2016/index.php?page=browseSessions&form_session=85)
+  - [Hydra Connect 2016](https://wiki.duraspace.org/display/hydra/Hydra+Connect+2016%3A++Workshops)
 
 <hr>
 
