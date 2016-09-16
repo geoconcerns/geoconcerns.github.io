@@ -54,7 +54,7 @@ snippet: 'Creating a Hydra PCDM scanned map work. Created as part of a tutorial 
 
 An important component of GeoConcern models are parent-child relationships between different work types. In our example, we've' created an Image Work for a scanned map. At some point we might want to georectify this map and create a raster image from it. It turns out that we already went through that process and we now want to link that GeoTiff to it's parent image. 
 
-1. On the bottom of the page, find the **Attach Child** button and select **Attach Raster Work** from the drop-down menu.
+1. In the **Child Works** section, click the **Attach New Raster Work** button.
 
    ![add_child_raster](/images/add_child_raster.png)
 

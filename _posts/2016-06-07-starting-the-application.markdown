@@ -55,8 +55,9 @@ snippet: 'Starting the GeoConcerns application and loggin in. Created as part of
 After logging into the server and navigating to the geo concerns demo directory, you will need to start the various servers necessary to run the application. A special `rake` command was created to do this in one step.
 
 ```sh
-$ cd geo-concerns-demo
-$ rake demo:servers 
+$ sudo -i
+$ cd /home/vagrant/geo-concerns-demo/
+$ rake demo:servers
 ```
 
 You can now navigate to the web pages for each of the services we just started. It might be useful to open a new browser tab for each service.

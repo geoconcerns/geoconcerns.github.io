@@ -54,7 +54,6 @@ Language | Language for the work. Example: English.
 Spatial | Spatial coverage and place names, perferrably in a controlled vocabulary. Example: "Paris, France".
 Temporal | Temporal coverage, typically years or dates. Example: 1989, circa 2010, 2007-2009.
 Issued | Issued date for the work.
-Provenance | Institution that holds the work.
 
 ### Add a location
 
