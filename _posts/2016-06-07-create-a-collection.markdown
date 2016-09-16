@@ -1,6 +1,6 @@
 ---
 layout: walkthrough
-title:  "Create a Collection - Part 6 - Walkthrough of GeoConcerns"
+title:  "Create a Collection - Part 7 - Walkthrough of GeoConcerns"
 date:   2016-06-07 15:00:00
 categories: tutorial
 author: 'Eliot Jordan'

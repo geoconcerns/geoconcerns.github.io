@@ -72,7 +72,7 @@ $ vagrant destroy # stops and deletes the virtual machine
 
 Thanks to Zach Vowell who contributed this guide for Windows.
 
-Note: Please install a Windows ssh client installed such as [ PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html).
+Note: Please install a Windows ssh client installed such as [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html).
 
   1. Install the Windows (.exe) version of VirtualBox and Vagrant on your machine.
 
@@ -102,7 +102,7 @@ Note: Please install a Windows ssh client installed such as [ PuTTY](http://www.
   1. When PuTTY shell prompts for a username and password, enter "vagrant" for both. You should now see a command prompt.
 
 <div class='flash-notice'>
-  <a href="{% post_url 2016-06-07-starting-the-application %}">Next → Starting the application</a>
+  <a href="{% post_url 2016-06-07-create-your-application %}">Next → Create your application</a>
 </div>
 
 [curationconcerns]:     https://github.com/projecthydra/curation_concerns

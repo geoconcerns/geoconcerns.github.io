@@ -1,6 +1,6 @@
 ---
 layout: walkthrough
-title:  "Create a Vector Work - Part 7 - Walkthrough of GeoConcerns"
+title:  "Create a Vector Work - Part 8 - Walkthrough of GeoConcerns"
 date:   2016-06-07 15:08:00
 categories: tutorial
 author: 'Eliot Jordan'

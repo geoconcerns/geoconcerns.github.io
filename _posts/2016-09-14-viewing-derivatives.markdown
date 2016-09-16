@@ -1,6 +1,6 @@
 ---
 layout: walkthrough
-title:  "Viewing Derivatives - Part 8 - Walkthrough of GeoConcerns"
+title:  "Viewing Derivatives - Part 9 - Walkthrough of GeoConcerns"
 date:   2016-09-14 15:08:00
 categories: tutorial
 author: 'Darren Hardy'
