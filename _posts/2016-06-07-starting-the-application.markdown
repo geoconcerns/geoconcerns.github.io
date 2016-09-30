@@ -13,6 +13,9 @@ snippet: 'Starting the GeoConcerns application and loggin in. Created as part of
   1. Start Solr, Fedora, and Rails
   1. Create a new user
 
+   If you have just completed parts 1 and 2, you can skip to Create a New User.
+   {: .flash-notice}
+
 
 ### Vagrant instructions
 
@@ -25,14 +28,14 @@ snippet: 'Starting the GeoConcerns application and loggin in. Created as part of
 1. Navigate to the geo-concerns vagrant directory and start the machine.
 
    ```sh
-   $ cd ../geo-concerns-vagrant
+   $ cd ../geo-concerns-demo
    $ vagrant up
    ```
 
 1. Navigate to the geo-concerns vagrant directory and start the machine.
 
    ```sh
-   $ cd ../geo-concerns-vagrant
+   $ cd ../geo-concerns-demo
    $ vagrant up
    ```
 
@@ -50,14 +53,14 @@ snippet: 'Starting the GeoConcerns application and loggin in. Created as part of
    Use PuTTY
    ```
 
-### Start Solr, Fedora, and Rails
+### Start the demo application
 
-After logging into the server and navigating to the geo concerns demo directory, you will need to start the various servers necessary to run the application. A special `rake` command was created to do this in one step.
+After logging into the server and navigating to the geo concerns demo directory, you will need to start the application.
 
 ```sh
 $ sudo -i
-$ cd /home/vagrant/geo-concerns-demo/
-$ rake demo:servers
+$ cd /home/vagrant/demos/geo-concerns-demo
+$ rails s -b 0.0.0.0
 ```
 
 You can now navigate to the web pages for each of the services we just started. It might be useful to open a new browser tab for each service.
@@ -65,6 +68,7 @@ You can now navigate to the web pages for each of the services we just started. 
 - [Demo App](http://127.0.0.1:3000)
 - [Fedora](http://127.0.0.1:8984)
 - [Solr](http://127.0.0.1:8983/solr)
+- [GeoServer](http://127.0.0.1:8181/geoserver)
 
 ### Create a new user
 
