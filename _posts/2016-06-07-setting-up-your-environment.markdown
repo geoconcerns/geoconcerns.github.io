@@ -28,11 +28,11 @@ GeoConcerns has similar prerequisites to the Hydra [Curation Concerns][curationc
   - [Mapnik][installmapnik]
 
 
-Local attendees of the workshop have the option of just using the pre-created environment on the provided thumb-drive. If you are not at the workshop, you can create the virtual machine for the workshop, by following [this guide](https://github.com/geoconcerns/geo-concerns-vagrant).
+Local attendees of the workshop have the option of just using the pre-created environment on the provided thumb-drive. If you are not at the workshop, you can create the virtual machine for the workshop, by following [this guide](https://github.com/geoconcerns/geo-concerns-demo).
 
 ### Local attendees setup VirtualBox/Vagrant
   
-Good news for local workshop participants, this is already done for you using VirtualBox and Vagrant. On the thumb-drive underneath a directory titled 'geo-concerns-vagrant'.
+Good news for local workshop participants, this is already done for you using VirtualBox and Vagrant. On the thumb-drive underneath a directory titled 'geo-concerns-demo'.
 
  - [Vagrant for OS X and Linux](#vagrant-for-os-x-and-linux)
  - [Vagrant for Windows](#vagrant-for-windows)
@@ -48,12 +48,12 @@ $ vagrant destroy # stops and deletes the virtual machine
 #### Vagrant for OS X and Linux
   1. Install the Mac (.dmg) version of VirtualBox and Vagrant on your machine. If you are using Linux, please download and install appropriately. [VirtualBox Downloads](https://www.virtualbox.org/wiki/Downloads), [Vagrant Downloads](https://www.vagrantup.com/downloads.html)
 
-  1. If not already on your Desktop, copy the `geo-concerns-vagrant` directory to your `~/Desktop` directory
+  1. If not already on your Desktop, copy the `geo-concerns-demo` directory and the `geo-concerns-demo-data` directory to your `~/Desktop` directory
 
-  1. Move to your `~/Desktop/geo-concerns-vagrant` directory
+  1. Move to your `~/Desktop/geo-concerns-demo` directory
  
      ```sh
-     $ cd ~/Desktop/geo-concerns-vagrant
+     $ cd ~/Desktop/geo-concerns-demo
      ```
 
   1. Start vagrant
@@ -76,20 +76,20 @@ Note: Please install a Windows ssh client installed such as [PuTTY](http://www.c
 
   1. Install the Windows (.exe) version of VirtualBox and Vagrant on your machine.
 
-  1. If not already on your Desktop, copy the `geo-concerns-vagrant` directory to your Desktop `C:\Users\[username]\Desktop` (for Windows 7)
+  1. If not already on your Desktop, copy the `geo-concerns-demo` directory and the `geo-concerns-demo-data` directory to your Desktop `C:\Users\[username]\Desktop` (for Windows 7)
 
   1. Open a [Windows Command Prompt (cmd)](http://www.digitalcitizen.life/7-ways-launch-command-prompt-windows-7-windows-8)
 
-  1. Move to the `geo-concerns-vagrant` directory on the Desktop
+  1. Move to the `geo-concerns-demo` directory on the Desktop
 
      ```
-     C:\Users\[username]> cd Desktop\geo-concerns-vagrant
+     C:\Users\[username]> cd Desktop\geo-concerns-demo
      ```
 
   1. Start Vagrant
 
      ```
-     C:\Users\[username]\Desktop\geo-concerns-vagrant> vagrant up
+     C:\Users\[username]\Desktop\geo-concerns-demo> vagrant up
      # This command creates and configures guest machines according to your Vagrantfile.
      ```
 

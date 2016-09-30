@@ -24,6 +24,13 @@ Prerequisite: Make sure your [environment is setup]({% post_url 2016-06-07-setti
 
 For more information about generating a Rails application see the [Getting Started with Rails](http://guides.rubyonrails.org/getting_started.html) guide.
 
+  1. Switch to the root user
+
+     ```sh
+     $ sudo -i
+     $ cd /home/vagrant
+     ```
+
   1. Create a new Rails application
 
      ```sh
@@ -61,12 +68,11 @@ For more information about generating a Rails application see the [Getting Start
 
 ### Install GeoConcerns
 
-  1. Add CurationConcerns and GeoConcerns to your `Gemfile`
+  1. Add GeoConcerns to your `Gemfile`. Add this line to the end:
 
      ```ruby
      # In ./Gemfile
-     gem 'curation_concerns', '1.5.0'
-     gem 'geo_concerns', '0.0.9'
+     gem 'geo_concerns', git: 'https://github.com/projecthydra-labs/geo_concerns.git', branch: 'workshop'
      ```
 
   1. Install required gems and their dependencies
@@ -78,13 +84,13 @@ For more information about generating a Rails application see the [Getting Start
   1. Run the CurationConcerns generator
 
      ```sh
-     $ rails g curation_concerns:install
+     $ rails generate curation_concerns:install -f
      ```
 
   1. Run the GeoConcerns generator
 
      ```sh
-     $ rails generate geo_concerns:install
+     $ rails generate geo_concerns:install -f
      ```
 
   1. Run database migrations
@@ -98,7 +104,14 @@ For more information about generating a Rails application see the [Getting Start
      {: .flash-notice}
 
      ```sh
-     $ rails new app-name -m https://raw.githubusercontent.com/projecthydra-labs/geo_concerns/master/template.rb
+     $ rails new app-name -m https://raw.githubusercontent.com/projecthydra-labs/geo_concerns/workshop/template.rb
+     ```
+
+  1. Change ActiveJob to queue adapter to inline. This is workaround for some issues with running background jobs on the Vagrant image. Add this line to the end of the development environment file:
+
+     ```ruby
+     # In ./config/environments/development.rb
+     Rails.application.config.active_job.queue_adapter = :inline
      ```
 
   1. Now start your Rails application again and navigate to [http://127.0.0.1:3000](http://127.0.0.1:3000). You should see the GeoConcerns homepage.
@@ -118,45 +131,6 @@ For more information about generating a Rails application see the [Getting Start
      Great job for making it this far. You now have a working GeoConcerns application!
      {: .flash-success}
 
-### Install RSpec
-[RSpec](http://rspec.info/) is a behavior-driven development framework for Ruby. It is the recommended way to test your application and is used by both the CurationConcerns and GeoConcerns projects.
-
-  1. Add `rspec-rails` to both the `:development` and `:test` groups in the `Gemfile`
-
-     ```sh
-     # In ./Gemfile
-     group :development, :test do
-       gem 'rspec-rails', '~> 3.0'
-     end 
-     ```
-
-  1. Download and install RSpec
-
-     ```sh
-     $ bundle install
-     ```
-
-  1. Initialize the spec/ directory (where specs will reside) with
-
-     ```sh
-     $ rails generate rspec:install
-     ```
-
-  1. Run your tests (specs) by running
-
-     ```sh
-     $ bundle exec rspec
-     ```
-
-     Writing tests for your application is outside the scope of this guide, but there are plenty of great examples out there. Check out the <a href="http://robots.thoughtbot.com/how-we-test-rails-applications">Thoughtbot blog</a>.
-     {: .flash-notice}
-
-  1. *Optional* Commit your work
-
-     ```sh
-     $ git add .
-     $ git commit -m 'Installed RSpec'
-     ```
 
 ### Next Steps
 

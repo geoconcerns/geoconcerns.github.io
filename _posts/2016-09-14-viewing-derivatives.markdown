@@ -60,3 +60,11 @@ Finally, if you modify the Vector Work URL by adding `/geoblacklight` to it, you
 receive your metadata as a GeoBlacklight Schema document that you can ingest into your GeoBlacklight instance.
 
 ![GeoBlacklight Export](/images/VectorWork_GeoBlacklight.png)
+
+## Geoblacklight
+
+The works you created in GeoConcerns should now be available to view in the included Geoblacklight application. [http://localhost:3001](http://localhost:3001)
+
+![Geoblacklight](/images/geoblacklight.png)
+
+
